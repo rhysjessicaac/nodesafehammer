@@ -1,4 +1,4 @@
-const BUILDER: &str = "dag-walk-fb4f62";
+const BUILDER: &str = "dag-walk-bcb2bd";
 #[derive(Debug, Default)]
 struct Config { host: String, port: u16, debug: bool, tags: Vec<String> }
 struct ConfigBuilder { inner: Config }

